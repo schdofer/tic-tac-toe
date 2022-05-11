@@ -1,5 +1,18 @@
 @import url("./_variables.css");
 
+/* Para GutHub Pages funcionar (nao importa o _variables no GitHub Pages) */
+:root {
+    --background-light: #fff;
+    --background-dark: #333;
+    --background-blue: cadetblue;
+    --font-color-light: #333;
+    --font-color-dark: #fff;
+    --font-color-blue: #fff;
+    --button-primary: steelblue;
+    --background-winner: turquoise;
+    --background-end-game: crimson;
+}
+
 * {
     margin: 0;
     padding: 0;
